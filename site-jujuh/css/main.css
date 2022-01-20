@@ -1,0 +1,33 @@
+body {
+    color: black;
+    text-align: center;
+}
+a {   
+    border: black solid 1px;
+    border-radius: 15px;
+    color: black;
+    float: left;
+    font-size: 24px;
+    font-weight: bold;
+    margin: 15px;
+    padding: 15px;
+    text-align: center;
+    text-decoration: none;
+    width: 30%;
+}
+a:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+a:hover{
+    background-color: violet;
+    color: white;
+}
+#links{
+    text-align: center;
+    margin-left: 22%;
+}
+label{
+    margin-top: 30px;
+}
