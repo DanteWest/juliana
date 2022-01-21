@@ -1,12 +1,16 @@
 <!DOCTYPE html>
+<html lang="pt-br">
 <head>
-<title>CATÁLOGO DIGITAL</title>
 <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" type="text/css" href="css/main.css">
+<title>CATÁLOGO DIGITAL</title>
 </head>
 <body>
+<div id="fachada">
 <h1>Conheça nossos produtos</h1>
-<br><br><br>
-<div id="perfumes">
+<img id="mulherSorrindo" src="media/image/siteJulianaMulherSorrindo.png">
+</div>
 <select>
 <option selected>TODAS AS CLASSES</option>
 <option>Potes e Tigelas</option>
@@ -14,30 +18,35 @@
 <option>Higiene pessoal</option>
 <option> Utilidades</option>
 </select>
-<input type="button" value="filtrar" Onclick="filtrar()" id="botao-filtrar">
-<br><br><br>
-<p>Imagem</p>
-<p>NOME+PREÇO batizando o paragrafo com uma class para filtrar depois</p>
-<br><br>
-
-<p>Imagem</p>
-<p>NOME+PREÇO</p>
-<br><br>
-
-
-<p>Imagem</p>
-<p>NOME+PREÇO</p>
-<br><br>
-
-<p>Imagem</p>
-<p>NOME+PREÇO</p>
-<br><br>
-
-<p>Imagem</p>
-<p>NOME+PREÇO</p>
-<br><br>
-
-<a href="juju.html">Retornar a página central</a>
+<button onclick="filtrar()">Filtrar</button>
+<div id="produtos">
+    <div class="produto">
+    <img src="" width="150px" height="150px"><br>
+    <label><b>Nome:</b></label><br>
+    <label><b>Descrição:</b></label><br>
+    <label><b>Preço:</b></label><br>
+    </div>
+    <div class="produto">
+    <img src="" width="150px" height="150px"><br>
+    <label><b>Nome:</b></label><br>
+    <label><b>Descrição:</b></label><br>
+    <label><b>Preço:</b></label><br>
+    </div>
+    <div class="produto">
+    <img src="" width="150px" height="150px"><br>
+    <label><b>Nome:</b></label><br>
+    <label><b>Descrição:</b></label><br>
+    <label><b>Preço:</b></label><br>
+    </div>
+    <div class="produto">
+    <img src="" width="150px" height="150px"><br>
+    <label><b>Nome:</b></label><br>
+    <label><b>Descrição:</b></label><br>
+    <label><b>Preço:</b></label><br>
+    </div>
+</div>
+<div id="links">
+<a href="index.html">Retornar a página central</a>
 </div>
 </body>
 </html>
